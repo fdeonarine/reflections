@@ -19,3 +19,7 @@ manually?
 
 to add file to staging are for commit : git add file.txt
 commit changes : git commit then enter message
+
+git diff: compares working directory to staging area
+git diff --staged : compares staging area to commit 1
+git diff commit1 commit2 : compares commit1 to commit2 
