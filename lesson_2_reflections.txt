@@ -28,4 +28,13 @@ Create branches: git branch name
 show available branches : git branch (* shows which branch is in check out mode)
 to change which branch to checkout : git checkout branchname
 git branch (will show which branch is now in checkout mode)
-Branch test
+
+to merge 2 branches : git merge barnch1 branch2.
+
+to add repositories to github :
+after the repository is created on github : git remote add origin URL_from_github
+to verify connection : git remote -v
+to check what remotes have been created: git remote
+
+how to pull from github to local when change was made from github 
+git pull origin changes
