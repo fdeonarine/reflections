@@ -23,3 +23,9 @@ commit changes : git commit then enter message
 git diff: compares working directory to staging area
 git diff --staged : compares staging area to commit 1
 git diff commit1 commit2 : compares commit1 to commit2 
+
+Create branches: git branch name 
+show available branches : git branch (* shows which branch is in check out mode)
+to change which branch to checkout : git checkout branchname
+git branch (will show which branch is now in checkout mode)
+Branch test
